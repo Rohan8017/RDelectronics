@@ -1,0 +1,162 @@
+.img1 {
+    width: 100%;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lan img {
+    width: 25vw;
+    height: 30vh;
+}
+.lan {
+    display: flex;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 3vh;
+    right: 8vw;
+}
+.navbar button {
+    font-size: 3vh;
+    background-color: rgba(105, 152, 170, 0.418);
+    border: none;
+    color: white;
+    margin-right: 1vw;
+}
+.main{
+    display: flex;
+    background: rgba(105, 152, 170, 0.418);
+}
+.left,.right{
+    width: 50%;
+}
+.left1 img {
+    width: 100%;
+}
+.left3 img {
+    width: 100%;
+}
+.right2 img {
+    width: 100%;
+}
+p {
+    font-size: 1.5vw;
+}
+h1{
+font-size: 2.5vw;
+text-align: center;
+}
+.right1{
+    background: rgba(0, 0, 255, 0.466);
+    color: white;
+}
+.left2{
+    background: rgba(165, 42, 42, 0.63);
+    color: white;
+}
+.right3{
+    background: orange;
+    color: white;
+}
+.main2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.one{
+    background: rgb(105, 152, 170);
+}
+.two{
+    background: rgba(165, 42, 42, 0.63);
+}
+.three{
+    background: rgba(105, 152, 170, 0.418);
+}
+.icon img {
+    width: 100%;
+}
+.footer{
+    height: 30vh;
+    width: 100%;
+    background: rgba(14, 14, 117, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer1{
+    height: 30vh;
+    width: 100%;
+    background: rgba(14, 14, 117, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer1{
+    display: none;
+}
+.upperfooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+.lowerfooter1{
+    display: flex;
+    justify-content: center;
+}
+.lowerfooter{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #000;
+    font-size: 2rem;
+}
+.img2{
+    width: 100%;
+    display: none;
+}
+@media only screen and (max-width: 1100px){
+    .footer{
+        display: none;
+    }
+    .footer1{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        display: none;
+    }
+    .lan{
+        flex-direction: column;
+    }
+    .lan img{
+        width: 100%;
+    }
+    .main{
+        display: none;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-size: 5vw;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    /* .img2{
+        display:block;
+    } */
+}
+
+
+
